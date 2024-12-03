@@ -1,0 +1,14 @@
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX1_Interfaces/bin/Debug/net9.0/EX1_Interfaces
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX1_Interfaces/bin/Debug/net9.0/EX1_Interfaces.deps.json
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX1_Interfaces/bin/Debug/net9.0/EX1_Interfaces.runtimeconfig.json
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX1_Interfaces/bin/Debug/net9.0/EX1_Interfaces.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX1_Interfaces/bin/Debug/net9.0/EX1_Interfaces.pdb
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX1_Interfaces/obj/Debug/net9.0/EX1_Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX1_Interfaces/obj/Debug/net9.0/EX1_Interfaces.AssemblyInfoInputs.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX1_Interfaces/obj/Debug/net9.0/EX1_Interfaces.AssemblyInfo.cs
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX1_Interfaces/obj/Debug/net9.0/EX1_Interfaces.csproj.CoreCompileInputs.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX1_Interfaces/obj/Debug/net9.0/EX1_Interfaces.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX1_Interfaces/obj/Debug/net9.0/refint/EX1_Interfaces.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX1_Interfaces/obj/Debug/net9.0/EX1_Interfaces.pdb
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX1_Interfaces/obj/Debug/net9.0/EX1_Interfaces.genruntimeconfig.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX1_Interfaces/obj/Debug/net9.0/ref/EX1_Interfaces.dll

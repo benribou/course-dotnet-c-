@@ -1,0 +1,14 @@
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP1/1_ARTICLE/bin/Debug/net9.0/1_ARTICLE
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP1/1_ARTICLE/bin/Debug/net9.0/1_ARTICLE.deps.json
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP1/1_ARTICLE/bin/Debug/net9.0/1_ARTICLE.runtimeconfig.json
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP1/1_ARTICLE/bin/Debug/net9.0/1_ARTICLE.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP1/1_ARTICLE/bin/Debug/net9.0/1_ARTICLE.pdb
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP1/1_ARTICLE/obj/Debug/net9.0/1_ARTICLE.GeneratedMSBuildEditorConfig.editorconfig
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP1/1_ARTICLE/obj/Debug/net9.0/1_ARTICLE.AssemblyInfoInputs.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP1/1_ARTICLE/obj/Debug/net9.0/1_ARTICLE.AssemblyInfo.cs
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP1/1_ARTICLE/obj/Debug/net9.0/1_ARTICLE.csproj.CoreCompileInputs.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP1/1_ARTICLE/obj/Debug/net9.0/1_ARTICLE.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP1/1_ARTICLE/obj/Debug/net9.0/refint/1_ARTICLE.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP1/1_ARTICLE/obj/Debug/net9.0/1_ARTICLE.pdb
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP1/1_ARTICLE/obj/Debug/net9.0/1_ARTICLE.genruntimeconfig.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP1/1_ARTICLE/obj/Debug/net9.0/ref/1_ARTICLE.dll

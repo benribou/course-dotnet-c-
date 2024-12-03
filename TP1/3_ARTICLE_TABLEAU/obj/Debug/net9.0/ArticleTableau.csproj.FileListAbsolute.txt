@@ -1,0 +1,14 @@
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/ArticleTableau/obj/Debug/net9.0/ArticleTableau.GeneratedMSBuildEditorConfig.editorconfig
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/ArticleTableau/obj/Debug/net9.0/ArticleTableau.AssemblyInfoInputs.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/ArticleTableau/obj/Debug/net9.0/ArticleTableau.AssemblyInfo.cs
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/ArticleTableau/obj/Debug/net9.0/ArticleTableau.csproj.CoreCompileInputs.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/ArticleTableau/bin/Debug/net9.0/ArticleTableau
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/ArticleTableau/bin/Debug/net9.0/ArticleTableau.deps.json
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/ArticleTableau/bin/Debug/net9.0/ArticleTableau.runtimeconfig.json
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/ArticleTableau/bin/Debug/net9.0/ArticleTableau.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/ArticleTableau/bin/Debug/net9.0/ArticleTableau.pdb
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/ArticleTableau/obj/Debug/net9.0/ArticleTableau.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/ArticleTableau/obj/Debug/net9.0/refint/ArticleTableau.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/ArticleTableau/obj/Debug/net9.0/ArticleTableau.pdb
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/ArticleTableau/obj/Debug/net9.0/ArticleTableau.genruntimeconfig.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/ArticleTableau/obj/Debug/net9.0/ref/ArticleTableau.dll

@@ -1,0 +1,14 @@
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX3_Delegués/bin/Debug/net9.0/EX3_Delegués
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX3_Delegués/bin/Debug/net9.0/EX3_Delegués.deps.json
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX3_Delegués/bin/Debug/net9.0/EX3_Delegués.runtimeconfig.json
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX3_Delegués/bin/Debug/net9.0/EX3_Delegués.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX3_Delegués/bin/Debug/net9.0/EX3_Delegués.pdb
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX3_Delegués/obj/Debug/net9.0/EX3_Delegués.GeneratedMSBuildEditorConfig.editorconfig
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX3_Delegués/obj/Debug/net9.0/EX3_Delegués.AssemblyInfoInputs.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX3_Delegués/obj/Debug/net9.0/EX3_Delegués.AssemblyInfo.cs
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX3_Delegués/obj/Debug/net9.0/EX3_Delegués.csproj.CoreCompileInputs.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX3_Delegués/obj/Debug/net9.0/EX3_Delegués.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX3_Delegués/obj/Debug/net9.0/refint/EX3_Delegués.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX3_Delegués/obj/Debug/net9.0/EX3_Delegués.pdb
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX3_Delegués/obj/Debug/net9.0/EX3_Delegués.genruntimeconfig.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX3_Delegués/obj/Debug/net9.0/ref/EX3_Delegués.dll

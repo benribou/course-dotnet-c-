@@ -1,0 +1,14 @@
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX2_Abstract/bin/Debug/net9.0/EX2_Abstract
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX2_Abstract/bin/Debug/net9.0/EX2_Abstract.deps.json
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX2_Abstract/bin/Debug/net9.0/EX2_Abstract.runtimeconfig.json
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX2_Abstract/bin/Debug/net9.0/EX2_Abstract.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX2_Abstract/bin/Debug/net9.0/EX2_Abstract.pdb
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX2_Abstract/obj/Debug/net9.0/EX2_Abstract.GeneratedMSBuildEditorConfig.editorconfig
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX2_Abstract/obj/Debug/net9.0/EX2_Abstract.AssemblyInfoInputs.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX2_Abstract/obj/Debug/net9.0/EX2_Abstract.AssemblyInfo.cs
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX2_Abstract/obj/Debug/net9.0/EX2_Abstract.csproj.CoreCompileInputs.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX2_Abstract/obj/Debug/net9.0/EX2_Abstract.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX2_Abstract/obj/Debug/net9.0/refint/EX2_Abstract.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX2_Abstract/obj/Debug/net9.0/EX2_Abstract.pdb
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX2_Abstract/obj/Debug/net9.0/EX2_Abstract.genruntimeconfig.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/EX2_Abstract/obj/Debug/net9.0/ref/EX2_Abstract.dll
