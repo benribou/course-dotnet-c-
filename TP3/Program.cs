@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.IO;
+using System.Text.Json;
 
 namespace LINQ
 {
@@ -37,22 +38,36 @@ namespace LINQ
     {
         public static void Main(string[] args)
         {
-            var mixedCollection = new List<object>
+            List<ArticleType> articles = new List<ArticleType>
             {
                 new ArticleType("Pomme", 2.5, 50, TypeArticle.Alimentaire),
                 new ArticleType("Savon", 3.2, 30, TypeArticle.Droguerie),
-                "Ceci est une chaîne",
-                42,
-                DateTime.Now,
-                new ArticleType("T-shirt", 15.0, 20, TypeArticle.Habillement)
+                new ArticleType("T-shirt", 15.0, 20, TypeArticle.Habillement),
+                new ArticleType("Chaussures", 50.0, 5, TypeArticle.Habillement)
             };
 
-            var onlyArticles = mixedCollection.OfType<ArticleType>();
+            string filePath = "articles.json";
 
-            Console.WriteLine("Articles extraits de la collection mixte :");
-            foreach (var article in onlyArticles)
+            Console.WriteLine("Exportation des articles en JSON...");
+            string json = JsonSerializer.Serialize(articles, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(filePath, json);
+            Console.WriteLine("Articles exportés dans le fichier 'articles.json'.\n");
+
+            Console.WriteLine("Importation des articles depuis JSON...");
+            if (File.Exists(filePath))
             {
-                article.ShowArticle();
+                string importedJson = File.ReadAllText(filePath);
+                List<ArticleType> importedArticles = JsonSerializer.Deserialize<List<ArticleType>>(importedJson);
+
+                Console.WriteLine("Articles importés :");
+                foreach (var article in importedArticles)
+                {
+                    article.ShowArticle();
+                }
+            }
+            else
+            {
+                Console.WriteLine("Le fichier JSON n'existe pas.");
             }
         }
     }
