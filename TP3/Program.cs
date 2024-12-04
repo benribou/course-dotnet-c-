@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.IO;
+using System.Text.Json;
 
 namespace LINQ
 {
@@ -45,9 +46,29 @@ namespace LINQ
                 new ArticleType("Chaussures", 50.0, 5, TypeArticle.Habillement)
             };
 
-            double totalStockValue = articles.Sum(a => a.Price * a.Quantity);
+            string filePath = "articles.json";
 
-            Console.WriteLine($"Valeur totale du stock : {totalStockValue}€");
+            Console.WriteLine("Exportation des articles en JSON...");
+            string json = JsonSerializer.Serialize(articles, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(filePath, json);
+            Console.WriteLine("Articles exportés dans le fichier 'articles.json'.\n");
+
+            Console.WriteLine("Importation des articles depuis JSON...");
+            if (File.Exists(filePath))
+            {
+                string importedJson = File.ReadAllText(filePath);
+                List<ArticleType> importedArticles = JsonSerializer.Deserialize<List<ArticleType>>(importedJson);
+
+                Console.WriteLine("Articles importés :");
+                foreach (var article in importedArticles)
+                {
+                    article.ShowArticle();
+                }
+            }
+            else
+            {
+                Console.WriteLine("Le fichier JSON n'existe pas.");
+            }
         }
     }
 }
