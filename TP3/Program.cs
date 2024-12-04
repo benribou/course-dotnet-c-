@@ -37,22 +37,20 @@ namespace LINQ
     {
         public static void Main(string[] args)
         {
-            var mixedCollection = new List<object>
+            List<ArticleType> articles = new List<ArticleType>
             {
                 new ArticleType("Pomme", 2.5, 50, TypeArticle.Alimentaire),
                 new ArticleType("Savon", 3.2, 30, TypeArticle.Droguerie),
-                "Ceci est une chaîne",
-                42,
-                DateTime.Now,
-                new ArticleType("T-shirt", 15.0, 20, TypeArticle.Habillement)
+                new ArticleType("T-shirt", 15.0, 20, TypeArticle.Habillement),
+                new ArticleType("Chaussures", 50.0, 5, TypeArticle.Habillement)
             };
 
-            var onlyArticles = mixedCollection.OfType<ArticleType>();
+            var simplifiedView = articles.Select(a => new { a.Name, a.Price });
 
-            Console.WriteLine("Articles extraits de la collection mixte :");
-            foreach (var article in onlyArticles)
+            Console.WriteLine("Vue simplifiée des articles (Nom et Prix) :");
+            foreach (var item in simplifiedView)
             {
-                article.ShowArticle();
+                Console.WriteLine($"Nom : {item.Name}, Prix : {item.Price}€");
             }
         }
     }
