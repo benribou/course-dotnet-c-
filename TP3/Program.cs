@@ -37,44 +37,23 @@ namespace LINQ
     {
         public static void Main(string[] args)
         {
-            List<ArticleType> articles = new List<ArticleType>
+            var mixedCollection = new List<object>
             {
                 new ArticleType("Pomme", 2.5, 50, TypeArticle.Alimentaire),
                 new ArticleType("Savon", 3.2, 30, TypeArticle.Droguerie),
-                new ArticleType("T-shirt", 15.0, 20, TypeArticle.Habillement),
-                new ArticleType("Banane", 2.5, 50, TypeArticle.Alimentaire),
-                new ArticleType("Shampoing", 3.2, 30, TypeArticle.Droguerie),
-                new ArticleType("Slip", 15.0, 20, TypeArticle.Habillement),
+                "Ceci est une chaîne",
+                42,
+                DateTime.Now,
+                new ArticleType("T-shirt", 15.0, 20, TypeArticle.Habillement)
             };
 
-            Console.WriteLine("Liste des articles initialisée :");
-            foreach (var article in articles)
+            var onlyArticles = mixedCollection.OfType<ArticleType>();
+
+            Console.WriteLine("Articles extraits de la collection mixte :");
+            foreach (var article in onlyArticles)
             {
                 article.ShowArticle();
             }
-
-            Console.WriteLine();
-
-            var alimentaires = articles.Where(a => a.Type == TypeArticle.Alimentaire);
-            Console.WriteLine("Articles de type Alimentaire :");
-            foreach (var article in alimentaires)
-            {
-                article.ShowArticle();
-            }
-
-            Console.WriteLine();
-
-            var sortedByPrice = articles.OrderByDescending(a => a.Price);
-            Console.WriteLine("Articles triés par prix décroissant :");
-            foreach (var article in sortedByPrice)
-            {
-                article.ShowArticle();
-            }
-
-            Console.WriteLine();
-
-            int totalStock = articles.Sum(a => a.Quantity);
-            Console.WriteLine($"Stock total de tous les articles : {totalStock}");
         }
     }
 }

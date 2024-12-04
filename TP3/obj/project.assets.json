@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/TP3.csproj",
+      "projectUniqueName": "/Users/riboubenjamin/git/course-dotnet-c-/TP3/TP3.csproj",
       "projectName": "TP3",
-      "projectPath": "/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/TP3.csproj",
+      "projectPath": "/Users/riboubenjamin/git/course-dotnet-c-/TP3/TP3.csproj",
       "packagesPath": "/Users/riboubenjamin/.nuget/packages/",
-      "outputPath": "/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/obj/",
+      "outputPath": "/Users/riboubenjamin/git/course-dotnet-c-/TP3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/riboubenjamin/.nuget/NuGet/NuGet.Config"
