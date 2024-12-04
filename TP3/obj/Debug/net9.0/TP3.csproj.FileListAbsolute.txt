@@ -1,0 +1,14 @@
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/bin/Debug/net9.0/TP3
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/bin/Debug/net9.0/TP3.deps.json
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/bin/Debug/net9.0/TP3.runtimeconfig.json
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/bin/Debug/net9.0/TP3.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/bin/Debug/net9.0/TP3.pdb
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/obj/Debug/net9.0/TP3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/obj/Debug/net9.0/TP3.AssemblyInfoInputs.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/obj/Debug/net9.0/TP3.AssemblyInfo.cs
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/obj/Debug/net9.0/TP3.csproj.CoreCompileInputs.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/obj/Debug/net9.0/TP3.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/obj/Debug/net9.0/refint/TP3.dll
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/obj/Debug/net9.0/TP3.pdb
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/obj/Debug/net9.0/TP3.genruntimeconfig.cache
+/Users/riboubenjamin/dev/dotnet_exercice/Lesbases/TP3/obj/Debug/net9.0/ref/TP3.dll
