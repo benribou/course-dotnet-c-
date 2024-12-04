@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace LINQ
 {
@@ -32,17 +33,6 @@ namespace LINQ
         }
     }
 
-    public static class ArticleExtensions
-    {
-        public static void AfficherTous(this List<ArticleType> articles)
-        {
-            foreach (var article in articles)
-            {
-                article.ShowArticle();
-            }
-        }
-    }
-
     public class Program
     {
         public static void Main(string[] args)
@@ -55,8 +45,9 @@ namespace LINQ
                 new ArticleType("Chaussures", 50.0, 5, TypeArticle.Habillement)
             };
 
-            Console.WriteLine("Liste des articles :");
-            articles.AfficherTous();
+            double totalStockValue = articles.Sum(a => a.Price * a.Quantity);
+
+            Console.WriteLine($"Valeur totale du stock : {totalStockValue}€");
         }
     }
 }
