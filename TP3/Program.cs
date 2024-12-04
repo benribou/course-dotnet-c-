@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace LINQ
 {
@@ -33,6 +32,17 @@ namespace LINQ
         }
     }
 
+    public static class ArticleExtensions
+    {
+        public static void AfficherTous(this List<ArticleType> articles)
+        {
+            foreach (var article in articles)
+            {
+                article.ShowArticle();
+            }
+        }
+    }
+
     public class Program
     {
         public static void Main(string[] args)
@@ -45,13 +55,8 @@ namespace LINQ
                 new ArticleType("Chaussures", 50.0, 5, TypeArticle.Habillement)
             };
 
-            var simplifiedView = articles.Select(a => new { a.Name, a.Price });
-
-            Console.WriteLine("Vue simplifiée des articles (Nom et Prix) :");
-            foreach (var item in simplifiedView)
-            {
-                Console.WriteLine($"Nom : {item.Name}, Prix : {item.Price}€");
-            }
+            Console.WriteLine("Liste des articles :");
+            articles.AfficherTous();
         }
     }
 }
