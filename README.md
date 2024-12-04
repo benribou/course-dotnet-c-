@@ -1,10 +1,12 @@
-# Exercices de C# - TP1 et TP2
+# Exercices de C# - TP1, TP2 et TP3
 
 Réalisé par Benjamin Ribou ✍️
 
 ## Structure du Projet
 
-Le dépôt est divisé en deux parties principales : **TP1** et **TP2**. Chaque partie contient des dossiers correspondant aux exercices traités.
+Le dépôt est divisé en trois parties principales : **TP1**, **TP2** et **TP3**. Chaque partie contient des dossiers correspondant aux exercices traités.
+
+---
 
 ### 📂 TP1
 
@@ -45,8 +47,28 @@ Les exercices du TP2 explorent des concepts avancés de programmation orientée 
 
 ---
 
+### 📂 TP3
+
+Les exercices du TP3 introduisent des notions avancées de manipulation de données avec **LINQ**, **expressions lambda**, et **sérialisation JSON**.
+
+1. **1_ANALYSE_LINQ**  
+   - Utilisation de **LINQ** pour :
+     - Filtrer des articles en fonction de leur type.
+     - Trier les articles par prix.
+     - Calculer des statistiques comme la valeur totale du stock.
+   - Utilisation de **types anonymes** pour projeter des vues simplifiées.
+
+2. **2_MÉTHODES_EXTENSION**  
+   - Création d'une méthode d'extension `AfficherTous` pour afficher les détails de tous les articles d'une liste directement.
+
+3. **3_EXPORT_IMPORT_JSON**  
+   - Exportation de la liste d'articles en JSON à l'aide de la bibliothèque **System.Text.Json**.
+   - Importation des données depuis un fichier JSON pour recréer et afficher les articles.
+
+---
+
 ## 🚀 Comment Exécuter les Exercices
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/nom-du-repo.git
+   https://github.com/benribou/course-dotnet-csharp.git
